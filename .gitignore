@@ -1,0 +1,33 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+.pnp
+.pnp.js
+
+# Environment & Secrets
+.env
+backend/.env
+web/.env.local
+
+# Docker volumes
+pgdata/
+
+# OS files
+.DS_Store
+Thumbs.db
